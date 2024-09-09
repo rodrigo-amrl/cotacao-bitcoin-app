@@ -4,7 +4,8 @@ Passos:
 2 -  yarn add amqplib axios dotenv
 3-  yarn add @types/amqplib @types/node ts-node typescript --dev
 4 - yarn build
-#api
+
+# api
 Passos:
 1 - yarn init -y
 2- yarn add amqplib express cors morgan dotenv mongoose socket.io
@@ -12,4 +13,10 @@ Passos:
 @types/morgan @types/node --dev
 4 - docker-compose up
 5 - yarn build
+
+# app
+Comandos Iniciais
+1 - npx @vue/cli create app
+2 - yarn add vue3-apexcharts vuex-module-decorators socket.io-client axios apexcharts mosha-vue-toastify
+3 - 
 
