@@ -3,7 +3,6 @@ import axios from 'axios'
 import Period from './enums/Period'
 import Candle from './models/Candle'
 import { createMessageChannel } from './messages/MessageChanel'
-import { error } from 'console'
 
 config()
 const readMarketPrice = async (): Promise<number> => {
