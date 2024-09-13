@@ -1,6 +1,5 @@
 <template>
     <div>
-        {{ series }}
         <apexchart v-if="series.length > 0" type="candlestick" height="350" :options="chartOptions" :series="series">
         </apexchart>
 

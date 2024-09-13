@@ -11,3 +11,4 @@
 6 - In the terminal enter the app folder and run the command: yarn install and after yarn serve
 
 
+![Alt text](image.png)
