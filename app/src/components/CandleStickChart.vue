@@ -1,8 +1,8 @@
 <template>
     <div>
         {{ series }}
-        <apexchart v-if="!!series" type="candlestick" height="350" :options="chartOptions" :series="series"></apexchart>
-        asdfadsf{{ syncCandle }}
+        <apexchart v-if="series.length > 0" type="candlestick" height="350" :options="chartOptions" :series="series">
+        </apexchart>
 
     </div>
 </template>

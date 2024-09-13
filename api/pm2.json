@@ -1,7 +1,7 @@
 {
     "apps": [
         {
-            "name": "generator",
+            "name": "api",
             "script": "node",
             "args": "build/server.js"
         }

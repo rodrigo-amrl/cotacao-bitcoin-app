@@ -1,7 +1,7 @@
 <template>
     <div id="header">
         <img class="logo" :src="logo" alt="Bitcoin loco" />
-        <span></span>
+        <span>Bitcoin Candle App</span>
     </div>
 </template>
 

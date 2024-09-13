@@ -10,9 +10,8 @@ export default class CandleStore extends VuexModule {
     private _candles: Candle[] = []
 
     get candles() {
-        console.log(this._candles.map(c => { return { x: c.finalDateTime.getTime(), y: [c.open, c.high, c.low, c.close] } }))
         return this._candles.length > 0
-            ? this._candles.map(c => { return { x: c.finalDateTime.getTime(), y: [c.open, c.high, c.low, c.close] } })
+            ? this._candles.map(c => { return { x: c.finalDateTime.toLocaleTimeString(), y: [c.open, c.high, c.low, c.close] } })
             : []
     }
     @Action
